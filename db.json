@@ -1,0 +1,421 @@
+{
+  "airports": [
+    {
+      "id": 1,
+      "name": "La Coruna",
+      "icao": "LECO"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "model": "Renault Clio",
+      "engine": 1,
+      "transmission": "manual",
+      "ac": true,
+      "abs": false
+    },
+    {
+      "model": "Fiat Mobi",
+      "engine": 1,
+      "transmission": "manual",
+      "ac": false,
+      "abs": false,
+      "id": 2
+    },
+    {
+      "model": "Fiat Mobi 2",
+      "engine": 1,
+      "transmission": "manual",
+      "ac": false,
+      "abs": false,
+      "id": 3
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Ibis"
+    },
+    {
+      "id": 2,
+      "name": "Blue Tree"
+    },
+    {
+      "id": 3,
+      "name": "Holiday Inn"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "johnsmith@email.com"
+    }
+  ],
+  "car-quotes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "amount": 1320,
+      "status": "quoted"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "amount": 1320,
+      "status": "error"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "amount": 1057.523654496136,
+      "status": "quoted"
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "amount": 1044,
+      "status": "quoted",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "in_progress",
+      "amount": null,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "in_progress",
+      "amount": null,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "in_progress",
+      "amount": null,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "in_progress",
+      "amount": null,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1033,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1032,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1033,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1047,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1045,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1045,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1075,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1013,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "in_progress",
+      "amount": null,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1070,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1057,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1051,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1092,
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1006,
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1004,
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1033,
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1080,
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1091,
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1039,
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1005,
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1095,
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1012,
+      "id": 30
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1047,
+      "id": 31
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1091,
+      "id": 32
+    },
+    {
+      "userId": 1,
+      "airportId": 1,
+      "carId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "status": "quoted",
+      "amount": 1023,
+      "id": 33
+    }
+  ],
+  "hotel-quotes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "hotelId": 1,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "amount": 1017,
+      "status": "quoted"
+    }
+  ],
+  "flight-quotes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "departureAirportId": 1,
+      "arrivalAirportId": 2,
+      "from": "2018-03-17",
+      "to": "2018-03-23",
+      "amount": 3500,
+      "status": "quoted"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "flightQuoteId": 1,
+      "carQuoteId": 1,
+      "hotelQuoteId": 1,
+      "status": "confirmed"
+    }
+  ]
+}
